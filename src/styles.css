@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%  !important;
+    background-color: #1976D2;
+}
+
+.Titrehaut {
+ padding-top: 50px;
+
+}
+
+a{
+    color:  	#FFFFFF;
+    text-decoration: none;
+
+
+}
+
+a:hover{
+    color:  	#FFFFFF;
+    text-decoration: none;
+
+}
+
+.Menu {
+  color:  	#FFFFFF;
+  padding-left: 80px;
+
+
+}
+
+.Vincent{
+
+  font-size: 120%;
+  color: #FFFFFF;
+}

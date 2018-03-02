@@ -1,0 +1,22 @@
+<mat-toolbar class="fixed-header">
+
+<span class="Vincent">Vincent de Cursay</span>
+<span class="Menu">
+ <a routerLink="/Accueil"><button mat-button> Accueil</button></a>
+<a routerLink="/PPE"><button mat-button> PPE</button></a>
+
+
+
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu" mat-button [overlapTrigger]="false">
+  <a routerLink="/E4"><button mat-menu-item>E4</button></a>
+  <a routerLink="/E6"><button mat-menu-item>E6</button></a>
+</mat-menu>
+
+
+</span>
+</mat-toolbar>
+
+<h1 class="Titrehaut">
+  E4
+</h1>
